@@ -1,7 +1,6 @@
 
 This repo utilizes Mixed Integer Linear Programming (MILP) to perform a stratified k-way split of 
-COCO datasets. The figure below compares the KL-divergence between the initial dataset and the validation 
-dataset obtained from an 80/20 train–validation split, using both the MILP-based splitter and a random image split.
+COCO datasets. The figure below compares the KL-divergence between class distributions in the initial dataset and those in the validation set obtained from an 80/20 train–validation split. Results are shown for both the MILP-based splitter and a random image-based split.
 
 
 ![alt text](docs/entropy_vs_data_size.png)
