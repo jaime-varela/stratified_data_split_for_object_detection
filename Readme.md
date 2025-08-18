@@ -53,7 +53,7 @@ $$
 The MLP objective is:
 
 $$
-\min \left( \lambda_{card} \sum_{j} (u_j^{+} + u_j^{-}) + \lambda_{cls} \sum_{j,c} (e_{j,c}^{+} + e_{j,c}^{-}) \right)
+\min \left( \lambda_{card} \sum_{j} (u_j^{+} + u_j^{-}) + \lambda_{cls} \sum_{j,c} \gamma_{c} (e_{j,c}^{+} + e_{j,c}^{-}) \right)
 $$
 
 Where $\gamma_{c}$ is a class normalization factor, and $\lambda_{card}$ and $\lambda_{cls}$ are weights
