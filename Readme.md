@@ -57,4 +57,4 @@ $$
 $$
 
 Where $\gamma_{c}$ is a class normalization factor, and $\lambda_{card}$ and $\lambda_{cls}$ are weights
-used to control the relative importance between the desired objectives (the default is $\lambda_{card} = 1.0$ and $\lambda{cls} = 10.0$)
+used to control the relative importance between the desired objectives (the default is $\lambda_{card} = 1.0$ and $\lambda_{cls} = 10.0$)
