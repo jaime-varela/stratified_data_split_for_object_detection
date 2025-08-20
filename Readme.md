@@ -8,7 +8,7 @@ COCO datasets. The figure below compares the KL-divergence between class distrib
 Note, a better metric would be to compare MILP with a greedy algorithm but the greedy algorithm has
 not been written.
 
-For a simple example see `stratification_examples.ipynb` if one wants to run a stratified split on a COCO dataset. To examine split statistics, refer to the file `stratification_statistical_analysis.ipynb`. There are still a few linter
+For a simple example see `stratification_examples.ipynb` if one wants to run a stratified split on a COCO dataset. To examine split statistics, refer to the file `stratification_statistical_analysis.ipynb`.
 
 
 ## MILP Description
